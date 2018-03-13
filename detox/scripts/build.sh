@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-if [ `uname` == "Darwin" ]; then
+if [ `uname` == "Darwin" ] && [ "$JENKINS" = false ]; then
   echo -e "\nPackaging Detox iOS sources"
   rm -fr Detox-ios-src.tbz
   #Prepare Earl Grey without building
