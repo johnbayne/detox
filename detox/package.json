@@ -77,16 +77,18 @@
       "fsext.js",
       "debug.js",
       "src/ios/earlgreyapi",
-      "src/android/espressoapi"
+      "src/android/espressoapi",
+      ".test.js",
+      "mock.js"
     ],
     "resetMocks": true,
     "resetModules": true,
     "coverageThreshold": {
       "global": {
-        "statements": 95,
-        "branches": 95,
-        "functions": 95,
-        "lines": 95
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
       }
     }
   }
