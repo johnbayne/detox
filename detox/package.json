@@ -79,7 +79,7 @@
       "src/ios/earlgreyapi",
       "src/android/espressoapi",
       ".test.js",
-      "mock.js"
+      ".mock.js"
     ],
     "resetMocks": true,
     "resetModules": true,
