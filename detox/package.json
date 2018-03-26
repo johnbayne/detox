@@ -77,9 +77,7 @@
       "fsext.js",
       "debug.js",
       "src/ios/earlgreyapi",
-      "src/android/espressoapi",
-      ".test.js",
-      ".mock.js"
+      "src/android/espressoapi"
     ],
     "resetMocks": true,
     "resetModules": true,
